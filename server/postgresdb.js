@@ -4,7 +4,7 @@ const {Pool} = require('pg')
 
 export const pool = new Pool({
     user: "postgres",
-    password: "ArkPass3",
+    password: "",
     host: "localhost",
     port: 5432,
     database: "postgres"
